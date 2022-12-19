@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <table cellspacing="10px">
+          <tr>
+            <tr>
+              <label for="name">Name: </label>
+              <input type="text" id="name" name="name" />
+              <br /> <br>
+            </tr>
+            <tr>
+              <label for="email">Email: </label>
+              <input type="email" id="email" name="email" />
+              <br /> <br>
+            </tr>
+            <tr>
+              <label for="phone">Mobile: </label>
+              <input type="phone" id="phone" />
+              <br /> <br>
+            </tr>
+            <tr>
+              <label for="address">Address: </label>
+              <textarea
+                name="address"
+                id="address"
+                cols="30"
+                rows="1"
+              ></textarea>
+            </tr>
+        </tr>
+          
+        </table >
+      </fieldset>
+      <br />
+      <br />
+      <fieldset>
+        <legend>Preference</legend>
+        <table>
+          <tr>
+            <td>
+              <label for="yes">Yes</label>
+              <input type="radio" name="food" id="Yes" />
+            </td>
+            <td>
+              <label for="no">No</label>
+              <input type="radio" name="food" id="No">
+              <br>
+            </td>
+          </tr>
+          <tr>
+            <label for="level"> Level</label>
+            <select name="level" id="level">
+                <option value="100">100</option>
+                <option value="200">200</option>
+                <option value="300">300</option>
+                <option value="400">400</option>
+            </select>
+          </tr>
+          <tr>
+            <label for="gender">Gender</label>
+            <input type="checkbox" name="gender" id="male">
+          </tr>
+          <tr>
+            <td><label for="male">Male</label>
+                <input type="checkbox" name="male" id="male">
+            </td>
+            <td><label for="female">Female</label>
+                <input type="checkbox" name="female" id="female">
+            </td>
+          </tr>
+          
+          
+        </table>
+
+      </fieldset>
+      <fieldset>
+        <legend>Feedback</legend>
+        <tr>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </tr>
+        <br> <br>
+        <tr>
+            <p>Fill the box below for an enquiriy</p>
+            <label for="enquiry">Enquiry</label>
+            <input type="enquiry" name="enquiry" id="enquiry">
+        </tr>
+      </fieldset>
+    </form>
+  </body>
+</html>
